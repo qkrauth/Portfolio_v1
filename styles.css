@@ -132,6 +132,10 @@ i {
     border: 5px solid white;
 }
 
+#projects p {
+    font-size: 20px;
+}
+
 #project1 a {
     text-decoration: none;
     font-weight: bold;
