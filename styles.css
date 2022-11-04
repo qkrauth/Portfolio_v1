@@ -56,11 +56,31 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    /* background-color: white; */
     color: black;
-    box-shadow: 0 0 10px black;
-    border: 2.5px solid black;
+    /* box-shadow: 0 0 10px black; */
+    /* border: 2.5px solid black; */
     font-size: 30px;
+}
+
+#connect {
+    position: relative;
+    left: 80px;
+    top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+#connect i {
+    color: white;
+    font-size: 30px;
+    transition: all .5s ease;
+}
+
+#connect i:hover {
+    color: black;
+    font-size: 40px;
 }
 
 #right {
